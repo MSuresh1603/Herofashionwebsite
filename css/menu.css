@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+}
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button {
+	display: block;
+	list-style: none;
+}
+#cssmenu:after, #cssmenu ul:after {
+	content: ".";
+	clear: both;
+	display: block;
+	line-height: 0;
+	visibility: hidden;
+}
+#cssmenu #menu-button {
+	display: none;
+}
+#cssmenu {
+	padding: 2% 0 2% 15%;
+	border-top: 1px solid #aaa;
+}
+#cssmenu ul li {
+	float: left;
+	list-style: none;
+	padding: 0px 30px;
+	position: relative;
+	border-right: 1px solid #aaa;
+}
+#cssmenu ul li a {
+	color: #000;
+	display: block;
+	text-transform: uppercase;
+}
+#cssmenu ul li a:hover, #cssmenu .active {
+	color: #6fa92c;
+}
+#cssmenu ul li:first-child {
+	padding-left: 0px;
+}
+#cssmenu ul li:last-child {
+	border: 0px;
+	padding-right: 0px;
+}
+@media only screen and (min-width:960px) and (max-width:1389px) {
+#cssmenu {
+	padding: 2% 0 2% 7%;
+}
+#cssmenu ul li {
+}
+}
+@media only screen and (min-width:768px) and (max-width:990px) {
+#cssmenu {
+	padding: 2% 0 2% 2%;
+}
+#cssmenu ul li {
+	padding: 0px 25px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+}
+@media all and (max-width: 768px) {
+#cssmenu {
+	padding: 1% 0;
+}
+#cssmenu ul, #cssmenu ul ul, #cssmenu ul ul ul, #cssmenu ul, #cssmenu ul li ul, #cssmenu ul li:hover ul, #cssmenu ul ul li:hover ul, #cssmenu ul ul ul li:hover ul {
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	width: 100%;
+	display: none;
+	position: relative;
+	opacity: 1;
+	background-color: #fff;
+}
+#cssmenu ul li {
+	border: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+#cssmenu ul li a {
+	width: 96%;
+	margin: 0px;
+	padding: 0px 2%;
+	border-bottom: 1px solid #aaa;
+}
+#cssmenu #menu-button {
+	color: #666;
+	display: block;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-transform: uppercase;
+}
+#cssmenu #menu-button:hover {
+	color: #6fa92c;
+}
+#cssmenu #menu-button:after {
+	content: "\f0c9";
+	margin-left: 1%;
+	font-family: FontAwesome;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+}
+@media only screen and (max-width:767px) {
+#cssmenu #menu-button {
+	font-size: 12px;
+}
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+#cssmenu #menu-button {
+	font-size: 14px;
+}
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	outline: none;
+	text-decoration: none;
+}
+img {
+	border: 0px;
+}
+table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+body {
+	color: #222;
+	font-family: 'Questrial', sans-serif;
+	background: #fff url(../images/bg.jpg) 0 0 repeat;
+}
+ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+ font-family: 'Questrial', sans-serif;
+}
+ input:-moz-placeholder, textarea:-moz-placeholder {
+ font-family: 'Questrial', sans-serif;
+}
+ input::-moz-placeholder, textarea::-moz-placeholder {
+ font-family: 'Questrial', sans-serif;
+}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+ font-family: 'Questrial', sans-serif;
+}
+#wrapper {
+	width: 100%;
+}
+#wrapper img {
+	max-width: 100%;
+}
+.logo_bg, .menu_bg, .banner_bg, .subbanner_bg, .content_bg, .support_bg, .news_bg, .footer_bg {
+	float: left;
+	width: 100%;
+}
+.subbanner_bg {
+	padding: 1% 0;
+	background-color: #7cb547;
+}
+.subbanner_bg h1 {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.subbanner_img {
+	float: left;
+	width: 100%;
+}

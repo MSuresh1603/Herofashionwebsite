@@ -1,0 +1,52 @@
+.flex-direction-nav a {
+	width: 11px;
+	height: 21px;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	text-indent: -9999px;
+	-webkit-transition: all .3s ease;
+}
+.flex-direction-nav li {
+	float: left;
+	list-style: none;
+}
+.flex-next:hover, .flex-prev:hover {
+	opacity: 0.8;
+}
+.kangayam .flex-prev {
+	top: 0px;
+	right: 50px;
+	position: absolute;
+	background: url(../images/arr_lft.png) 0 0 no-repeat;
+}
+.kangayam .flex-next {
+	top: 0px;
+	right: 30px;
+	position: absolute;
+	background: url(../images/arr_rht.png) 0 0 no-repeat;
+}
+@media only screen and (min-width:960px) and (max-width:1389px) {
+}
+@media only screen and (min-width:768px) and (max-width:990px) {
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+}
+@media all and (max-width: 768px) {
+}
+@media only screen and (max-width:767px) {
+.kangayam .flex-prev {
+	right: 30px;
+}
+.kangayam .flex-next {
+	right: 10px;
+}
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+.kangayam .flex-prev {
+	right: 30px;
+}
+.kangayam .flex-next {
+	right: 10px;
+}
+}
